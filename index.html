@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <nav>
+    <img src="logo.png" alt="">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>   
+    </ul>
+  </nav>
+    <section>
+        <div class="sign">
+            <h2>Sign Up</h2>
+        </div>
+        <form action="" method="post">
+         <div class="data">
+            <label for="fn">First Name</label>
+            <input type="text"  id="fn" name="first name" placeholder="Enter First Name..." required>
+            <br><br>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="last name" placeholder="Enter Last Name..." required>
+            <br><br> 
+            <label for="sn">Screen Name</label>
+            <input type="text" id="sn"  name="scre name" placeholder="Enter Screen Name..." required>
+            <br><br>
+            <label for="d">Date of Birth</label>
+            <select name="month" id="d">
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may" selected>May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">Septemper</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+            <select name="day" id="d">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="" selected>5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+            </select>
+            <select name="year" id="d">
+                <option value="" selected>1985</option>
+                <option value="">1986</option>
+                <option value="">1987</option>
+                <option value="">1988</option>
+                <option value="">1989</option>
+                <option value="">1990</option>
+
+            </select>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" class="gen">Male</label>
+            <input type="radio" id="female" name="gender" value="fale">
+            <label for="female"  class="gen">Female</label>
+            <br><br>
+            <label for="coutry">Country</label>
+            <select id="se1">
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="usa" selected>USA</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antartica">Antarctica</option>
+            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Aruba">Aruba</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Bahrain">Bahrain</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Barbados">Barbados</option>
+            <option value="Belarus">Belarus</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Belize">Belize</option>
+            <option value="Benin">Benin</option>
+            <option value="Bermuda">Bermuda</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+            <option value="Botswana">Botswana</option>
+            <option value="Bouvet Island">Bouvet Island</option>
+            <option value="Brazil">Brazil</option>
+            </select>
+            <br><br>
+            <label for="em">E-mail</label>
+            <input type="email"  id="em" placeholder="Enter E-mail..." required>
+            <br><br>
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" placeholder="Enter Phone...">    
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" required >
+            <br><br>
+            <label for="cpass">Confirm Password</label>
+            <input type="password"  id="cpass" required>
+            <br><br>
+            <div class="cbox">
+                <input type="checkbox" id="agree" required>
+            <label for="agree" class="gen">I agree to this items to use</label>
+            </div>
+         </div>
+    
+         <div class="footer">
+            <input type="submit" value="Submit" class="sub">
+            <input type="submit" value="Cancel" class="can">
+         </div>
+        </form>
+    </section>
+</body>
+</html>

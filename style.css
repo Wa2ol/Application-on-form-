@@ -1,0 +1,123 @@
+*{
+    padding: 0%; margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(back.jpg) no-repeat top;
+    background-size: cover;
+
+}
+nav{
+    background-color: rgb(131, 0, 94);
+    overflow: hidden;
+}
+nav img{
+    width: 80x;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px ;
+
+}
+nav ul{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Arial;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 30);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+   color: rgb(0, 0, 30);
+}
+section{margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    margin-top: 300px;
+    border: rgb(0, 0, 30) solid 3px;
+}
+.sign{
+   
+    background-color: rgb(131, 0, 94);
+    color: #fff;
+}
+.data{
+    color: #fff;
+}
+.footer{
+    background-color: rgb(131, 0, 94);
+}
+.sign h2{
+    padding: 10px;
+}
+.data{padding: 30px;}
+label:not(.gen){
+    display: inline-block;
+    padding-left :50px;
+    padding-right: 20px; 
+    width: 200px;
+    text-align: right;
+}
+.data input[type=text],input[type=phone],input[type=email],input[type=password]{
+    width: 200px;
+    height: 23px;
+    border-radius: 5px;
+}
+.cbox{
+    text-align: center;
+}
+select:not(#d){
+    width: 204px;
+    height: 25px;
+    border-radius: 5px;
+    padding-right: 5px;
+}
+#d{
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer{
+    text-align: right;
+    padding: 10px;
+}
+.footer input{
+    padding: 5px 10px;
+}
+.footer .sub{
+    background-color: rgb(0, 0, 30);
+    color: white;
+    border-radius: 5px;
+}
+.footer .sub:hover{
+    background-color: white;
+    color:rgb(0, 0, 30) ;
+    cursor: pointer;
+
+}
+
+.footer .can{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.footer .can:hover{
+    background-color: white;
+    color:red ;
+    cursor: pointer;
+}
